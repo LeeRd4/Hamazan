@@ -37,10 +37,13 @@ function afficherNews() {
 
 // INFO
 function afficherInfo() {
-    document.getElementById("textContent").innerHTML =
-        "<h2>Info</h2><p>Conseils de sécurité disponibles ici.</p>";
+     let contenu ="<h2>Info</h2>";
+    dataGlobal.news.forEach(n => {
+        contenu += "<li>" + n + "</li>";
+    });
+    contenu += "</ul>";
+    document.getElementById("textContent").innerHTML = contenu;
 }
-
 // REPORT
 function afficherReport() {
     document.getElementById("textContent").innerHTML = `
