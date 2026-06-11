@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     color: white;
-    background-color: #800517;
+    background-color: #2c3e50;
 }
 
 /* LOGIN */
@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#161616, #800517);
+    background: linear-gradient(#87efff55, #87efff);
 }
 
 /* STRUCTURE */
@@ -25,7 +25,7 @@ body {
 
 #menu {
     width: 20%;
-    background-color: #551606;
+    background-color: #87efff55;
 }
 
 #menu ul {
@@ -37,14 +37,14 @@ body {
 #menu li {
     padding: 15px;
     margin: 10px;
-    background-color: #800517;
+    background-color: #87efff;
     cursor: pointer;
     border-radius: 5px;
     color: #ed5c5c;
 }
 
 #menu li:hover {
-    background-color: #9d2933;
+    background-color: #9ecae1;
 }
 
 /* RIGHT PANEL */
@@ -56,13 +56,13 @@ body {
 
 #site-header {
     padding: 15px;
-    background-color: #551606;
-    border-bottom: 2px solid #9d2933;
+    background-color: #4292c6;
+    border-bottom: 2px solid #2c3e50;
 }
 
 #site-header h1 {
     margin: 0;
-    color: #ed5c5c;
+    color: #c6dbef;
     font-family: SmallRoundhand, cursive;
     font-variant: small-caps;
 }
@@ -96,7 +96,7 @@ body {
 }
 
 .form-submit {
-    background-color: #ed5c5c;
+    background-color: #217186;
     padding: 10px;
     border: none;
     cursor: pointer;
