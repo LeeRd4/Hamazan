@@ -186,8 +186,8 @@ function loop(){
 
   // fond
   let g = ctx.createLinearGradient(0,0,0,H);
-  g.addColorStop(0,"#9d2933");
-  g.addColorStop(1,"#551606");
+  g.addColorStop(0,"#87efff");
+  g.addColorStop(1,"#2c3e50");
   ctx.fillStyle = g;
   ctx.fillRect(0,0,W,H);
 
@@ -275,7 +275,7 @@ function loop(){
 }
 
 function drawPipe(x,y,w,h){
-  ctx.fillStyle="#fe8f8e";
+  ctx.fillStyle="#2c3e50";
   ctx.fillRect(x,y,w,h);
 
   ctx.fillRect(x,y,w,10);
