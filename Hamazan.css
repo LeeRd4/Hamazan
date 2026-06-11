@@ -1,0 +1,103 @@
+html {
+    font-size: 30px;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background-color: #800517;
+}
+
+/* LOGIN */
+#loginPage {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#161616, #800517);
+}
+
+/* STRUCTURE */
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+#menu {
+    width: 20%;
+    background-color: #551606;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#menu li {
+    padding: 15px;
+    margin: 10px;
+    background-color: #800517;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #ed5c5c;
+}
+
+#menu li:hover {
+    background-color: #9d2933;
+}
+
+/* RIGHT PANEL */
+#right-panel {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#site-header {
+    padding: 15px;
+    background-color: #551606;
+    border-bottom: 2px solid #9d2933;
+}
+
+#site-header h1 {
+    margin: 0;
+    color: #ed5c5c;
+    font-family: SmallRoundhand, cursive;
+    font-variant: small-caps;
+}
+
+#contenu {
+    flex: 1;
+    padding: 40px;
+    color: #ffcbd1;
+}
+
+/* FORM */
+.form-wrapper {
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input,
+.form-group textarea {
+    background: white;
+    color: #161616;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-submit {
+    background-color: #ed5c5c;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

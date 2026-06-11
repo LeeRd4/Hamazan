@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hamazan</title>
+<link rel="stylesheet" href="Hamazan.css">
+</head>
+
+<body>
+
+<!-- LOGIN -->
+<div id="loginPage">
+    <div class="form-wrapper">
+        <h2>Connexion</h2>
+        <div class="form-group">
+            <input type="email" id="loginEmail" placeholder="email">
+        </div>
+        <div class="form-group">
+            <input type="password" id="loginPassword" placeholder="mot de passe">
+        </div>
+        <button class="form-submit" onclick="connexion()">Connexion</button>
+    </div>
+</div>
+
+<!-- SITE -->
+<div id="container" style="display:none;">
+    <aside id="menu">
+        <ul>
+            <li onclick="afficherNews()">News</li>
+            <li onclick="afficherReport()">Report</li>
+            <li onclick="afficherInfo()">Info Sécurité</li>
+            <li onclick="AfficherJeu()">Support</li>
+        </ul>
+    </aside>
+
+    <div id="right-panel">
+        <header id="site-header">
+            <h1>Ha mazan</h1>
+        </header>
+
+        <main id="contenu">
+            <div id="textContent"></div>
+        </main>
+    </div>
+</div>
+
+<script src="Hamazan.js"></script>
+
+</body>
+</html>
