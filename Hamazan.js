@@ -82,8 +82,6 @@ function envoyerSignalement(event) {
 // JEU (simplifié — tu peux remettre le tien complet)
 function AfficherJeu() {
     document.getElementById("textContent").innerHTML = `
-    <h2>Support</h2>
-
     <p style="text-align:center; font-size:18px;">
         0 à 10 points : vous payez le restaurant |
         10 à 20 points : vous ramenez les croissants |
