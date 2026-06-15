@@ -87,7 +87,7 @@ function AfficherJeu() {
     <p style="text-align:center; font-size:18px;">
         0 à 10 points : vous payez le restaurant |
         10 à 20 points : vous ramenez les croissants |
-        20+ : vous avez tout de même cliqué sur un lien suspect, dan sle doute, faîtes report email
+        20+ : vous avez tout de même cliqué sur un lien suspect, dans le doute, faîtes report email
     </p>
 
     <canvas id="game" width="400" height="600"></canvas>
