@@ -51,7 +51,7 @@ button {
     background-color: #969696;
     cursor: pointer;
     border-radius: 5px;
-    color: #ed5c5c;
+    color: #c0c5ce;
 }
 
 #menu li:hover {
@@ -68,7 +68,7 @@ button {
 #site-header {
     padding: 15px;
     background-color: #636363;
-    border-bottom: 2px solid #9d2933;
+    border-bottom: 2px solid #636363;
 }
 
 #site-header h1 {
