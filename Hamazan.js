@@ -78,7 +78,7 @@ function envoyerSignalement(event) {
             description: document.getElementById("description").value
         })
     })
-    .then(() => alert("Signalement envoyé"))
+    .then(() => alert("Ramène les croissants, merci"))
     .catch(() => alert("Erreur"));
 }
 
