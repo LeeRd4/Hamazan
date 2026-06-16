@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     color: white;
-    background-color: #800517;
+    background-color: #252525;
 }
 
 /* LOGIN */
@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#161616, #800517);
+    background-color: #252525;
 }
 
 /* STRUCTURE */
@@ -25,7 +25,7 @@ body {
 
 #menu {
     width: 20%;
-    background-color: #551606;
+    background-color: #636363;
 }
 
 #menu ul {
@@ -37,14 +37,14 @@ body {
 #menu li {
     padding: 15px;
     margin: 10px;
-    background-color: #800517;
+    background-color: #969696;
     cursor: pointer;
     border-radius: 5px;
     color: #ed5c5c;
 }
 
 #menu li:hover {
-    background-color: #9d2933;
+    background-color: #d9d9d9;
 }
 
 /* RIGHT PANEL */
@@ -56,13 +56,13 @@ body {
 
 #site-header {
     padding: 15px;
-    background-color: #551606;
+    background-color: #636363;
     border-bottom: 2px solid #9d2933;
 }
 
 #site-header h1 {
     margin: 0;
-    color: #ed5c5c;
+    color: #f7f7f7;
     font-family: SmallRoundhand, cursive;
     font-variant: small-caps;
 }
@@ -70,7 +70,7 @@ body {
 #contenu {
     flex: 1;
     padding: 40px;
-    color: #ffcbd1;
+    color: #f7f7f7;
 }
 
 /* FORM */
@@ -90,7 +90,7 @@ body {
 .form-group input,
 .form-group textarea {
     background: white;
-    color: #161616;
+    color: #636363;
     padding: 10px;
     border-radius: 5px;
 }
